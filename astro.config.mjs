@@ -8,12 +8,6 @@ export default defineConfig({
     starlight({
       title: "Elmi components",
       description: "Elmi components documentation",
-      social: [
-        {
-          label: "GitHub",
-          href: "https://github.com/ruiizy/elmi",
-        },
-      ],
       sidebar: [
         {
           label: "Guías",
