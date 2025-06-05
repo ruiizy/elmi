@@ -2,8 +2,8 @@ import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 
 export default defineConfig({
-  site: "https://elmi.github.io",
-  base: "/elmi", // Cambia por el nombre de tu repositorio
+  site: "https://ruiizy.github.io", // ← Tu usuario de GitHub
+  base: "/elmi", // ← Nombre de tu repositorio
   integrations: [
     starlight({
       title: "Elmi components",
@@ -21,10 +21,7 @@ export default defineConfig({
           autogenerate: { directory: "reference" },
         },
       ],
-      customCss: [
-        // Opcional: añadir CSS personalizado
-        "./src/styles/custom.css",
-      ],
+      customCss: ["./src/styles/custom.css"],
     }),
   ],
 });
