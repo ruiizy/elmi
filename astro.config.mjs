@@ -10,8 +10,8 @@ export default defineConfig({
       description: "Elmi components documentation",
       social: [
         {
-          icon: "github",
-          link: "https://github.com/ruiizy/elmi",
+          label: "GitHub",
+          href: "https://github.com/ruiizy/elmi",
         },
       ],
       sidebar: [
